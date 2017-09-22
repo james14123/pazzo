@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+#renderCanvas {
+             display:inherit;
+             height: 450px;
+             width: 300px;
+             position: fixed;
+             background-color: rgba(255,255,255,0.6);
+             margin: 31px 0 0 0px;
+             
+        }   
+
+.btn {
+    float: left;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: 1px solid #DDDDDD; 
+    margin: 5px 0 0 5px;
+    font-size: 10px;
+    transition-duration: 0.1s;
+    box-shadow: 2px 1px 2px #888888;
+    
+}
+.btn-hair {
+    -webkit-appearance: none;
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    
+    z-index: 9999;
+}
+.btn-hair:hover {
+    -webkit-appearance: none;
+    
+    background-color: #DDDDDD;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    
+    z-index: 9999;
+}
+
+#hair1 {
+    margin: 35px 0 0 5px;
+}
+
+#hair2 {
+    margin: 80px 0 0 5px;
+}
+
+.btn:hover {
+    background-color: lightgray; /* Green */
+    color: white;
+     box-shadow: 3px 2px 2px #888888;
+}
+
+#btn-bar {
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    overflow: hidden;
+    border-top: 1px solid #DDDDDD; 
+    margin: 481px 0 0 0px;
+}
+
+
+#top-bar {
+    width: 300px;
+    height: 30px;
+    position: fixed;
+    overflow: hidden;
+    border-bottom: 1px solid #DDDDDD; 
+    margin: 0px 0 0 0px;
+    background-color: white;
+}
+
+#body {
+     display: none;
+     text-align: center;
+     height: 450px;
+     width: 300px;
+     position: absolute;
+     margin: 31px 0 0 0px;
+     background-color: rgba(0,0,0,0.2);
+     
+     
+     
+}
+
+#backbtn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 5px 0 0 6px;
+}
+
+#title {
+    position: absolute;
+    margin: 0px 0 0 125px;
+}
+
+input[type="range"] {
+	-webkit-appearance: none;
+    width: 20em;
+	border-width: px;
+	border-style: solid;
+	border-radius: 50rem;
+	border-color: rgba(0, 0, 0, 0.1);
+	padding: 2px 2px;
+    
+}
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: #89B84C;
+	border-radius: 50rem;
+	height: 2em;
+	width: 2em;
+}

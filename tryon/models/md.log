@@ -1,0 +1,97 @@
+Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  D:\WIN7_USER\Desktop\TryOn\123\models\
+	Python World class constructor completed
+	processing begun of mesh:  bodyShape_skin_Shape
+		processing begun of Standard material:  W_hand_leg
+			Diffuse texture found "Kd.010"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\W_leg_hand_west.jpg'
+		processing begun of Standard material:  W_face
+			Diffuse texture found "Kd.009"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\TryOn\\123\\models\\W_face_west-1.jpg'
+		processing begun of Standard material:  W_body
+			Diffuse texture found "Kd.008"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\W_body_west_lingerie.jpg'
+		processing begun of Standard material:  dummy
+			Opacity texture found "D.001"
+				Image texture found, type:  opacityTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\transparency.png'
+		processing begun of Standard material:  W_Shoes_skin
+			Diffuse texture found "Kd.004"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_beige_new.jpg'
+			Specular texture found "Ks.001"
+				Image texture found, type:  specularTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_s.jpg'
+		processing begun of Standard material:  W_Shoes_sole
+			Diffuse texture found "Kd.005"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_nudes.jpg'
+			Specular texture found "Ks.002"
+				Image texture found, type:  specularTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_s.jpg'
+		processing begun of Standard material:  W_Shoes_red
+		processing begun of Standard material:  W_Shoes_outsole
+			Diffuse texture found "Kd.006"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_nudes.jpg'
+			Specular texture found "Ks.003"
+				Image texture found, type:  specularTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_s.jpg'
+		processing begun of Standard material:  Shoes_heel_rubber
+		processing begun of Standard material:  W_Shoes_front_heel
+			Diffuse texture found "Kd.003"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_beige_new.jpg'
+			Specular texture found "Ks"
+				Image texture found, type:  specularTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\skin_s.jpg'
+		processing begun of Standard material:  W_eyelashes
+		processing begun of Standard material:  W_eye_specular_Light
+			Opacity texture found "D.003"
+				Image texture found, type:  opacityTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\eye_light.png'
+		processing begun of Standard material:  W_eye
+			Diffuse texture found "Kd.007"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\eye_2.jpg'
+		processing begun of Standard material:  W_hair_bend
+		processing begun of Standard material:  W_hair
+			Diffuse texture found "Kd.002"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\woman_hair.png'
+		processing begun of Standard material:  W_hair_cap
+			Diffuse texture found "Kd.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: 'D:\\WIN7_USER\\Desktop\\新增資料夾\\..\\..\\CLO3D_avatar\\avatarorigin(thin)\\cap.jpg'
+		processing begun of Standard material:  W_face_hair
+		processing begun of multimaterial:  md.Multimaterial#0
+		num positions      :  59306
+		num normals        :  59306
+		num uvs            :  118612
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  208746
+		WARNING: # of 0 area faces found:  644
+		Shape Keys:
+			shape key "ENTIRE_MESH-BODYSHAPE_SKIN_SHAPE.HEIGHT":  n verts different from basis: 50894
+			shape key "ENTIRE_MESH-BODYSHAPE_SKIN_SHAPE.WEIGHT":  n verts different from basis: 39115
+			shape key "ENTIRE_MESH-BODYSHAPE_SKIN_SHAPE.WAIST":  n verts different from basis: 18999
+			shape key "ENTIRE_MESH-BODYSHAPE_SKIN_SHAPE.UPPERCHEST":  n verts different from basis: 3203
+			shape key "ENTIRE_MESH-BODYSHAPE_SKIN_SHAPE.SHOULDER":  n verts different from basis: 25533
+			shape key "ENTIRE_MESH-BODYSHAPE_SKIN_SHAPE.HIP":  n verts different from basis: 19505
+			shape key "ENTIRE_MESH-BODYSHAPE_SKIN_SHAPE.BREAST":  n verts different from basis: 6033
+		Shape-key group, ENTIRE_MESH, # of affected vertices: 59306, out of 59306
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of files started =========
+========= Writing of files completed =========
+========= end of processing =========
+elapsed time:  0 min, 16.429 secs

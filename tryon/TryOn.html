@@ -1,0 +1,422 @@
+<html >
+<head>
+  
+    <title>Demo</title>
+    <script src="babylon.js"></script>
+    <script src="babylon.glTF2FileLoader.js"></script>
+    <script src="QueuedInterpolation.1.1.min.js"></script>
+    <script src="hand.js"></script>
+    
+    
+    <script src="models/md.js"></script>
+    
+    <script src="models/md_hair.js"></script>
+    <script src="models/mdcloth/TOB_mdcloth.js"></script>
+    
+    <script src="models/mdcloth/TOB_mdcloth1.js"></script>
+    <script src="ts.js"></script>
+    <script src="TS_bodylab.js"></script>
+    <script src="TOB_BJSHQ.js"></script>
+    <link href="tryonstyle.css" rel="stylesheet" type="text/css">
+
+    
+    
+    <style>
+     
+       
+        
+    </style>
+</head>
+<div id="top-bar">
+    <img type="button" id="backbtn" src=back.png onclick="history.back()" >
+<font face="Century Gothic"  style="line-height:30px;font-weight:bold;" id="title"> Try-On
+    </font>
+    </div>
+<body style="height: 530px;
+             width: 300px;
+             border: 1px solid 	#DDDDDD;
+             border-radius: 2px;"> 
+    
+<button class="btn-hair" id="hair1" onclick="changehair1()">1</button>
+    
+<button class="btn-hair" id="hair2" onclick="changehair2()">2</button>
+<div id="btn-bar">
+<button class="btn" onclick="bodyadjust()"><img src="body.png" style="width:150%;height:100%; margin-left:-5.52px;"></button>
+
+<button class="btn" onclick="change()">1</button>
+<button class="btn" onclick="change1()">2</button>
+
+</div>
+    
+    
+
+<canvas id="renderCanvas"></canvas>
+    
+    
+<div id="body" >
+<font face="微軟正黑體">     
+   <label id="label1">Height</label><br/>
+<input id="slide1" type="range" min="0" max="100" step="25"  value="0"
+       onchange="updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate(),updatesliderhair(this.value/100)" ><br/>
+<label id="label2">Weight</label><br/>
+<input id="slide2" type="range" min="0" max="100" step="25"  value="0"
+       onchange="updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()" ><br/>
+<label id="label3">Waist</label><br/>
+<input id="slide3" type="range" min="0" max="1" step="0.1" value="0" 
+       onchange="updateslidervertexdeformation(slide1.value/100,slide2.value/100,this.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate()"><br/>
+<label id="label4">UpperChest</label><br/>
+<input id="slide4" type="range" min="0" max="1" step="0.1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,this.value,slide5.value,slide6.value,slide7.value),clothsizeupdate()"><br/>
+<label id="label5">Shoudler</label><br/>
+<input id="slide5" type="range" min="0" max="8" step="1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,slide4.value,this.value,slide6.value,slide7.value),clothsizeupdate()"><br/>
+<label id="label6">Hips</label><br/>
+<input id="slide6" type="range" min="0" max="1" step="0.1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,slide4.value,slide5.value,this.value,slide7.value),clothsizeupdate()"><br/>
+<label id="label7">Breast</label><br/>
+<input id="slide7" type="range" min="0" max="1" step="0.1" value="0" 
+        onchange="updateslidervertexdeformation(slide1.value,slide2.value,slide3.value,slide4.value,slide5.value,slide6.value,this.value),clothsizeupdate()"><br/>
+
+    
+    </font>
+</div>
+
+
+    
+
+<script>
+document.getElementById("body").style.display = "none";
+function bodyadjust(){
+           
+    if(document.getElementById("body").style.display == "block"){
+
+        document.getElementById("body").style.display = "none";
+    }else{
+        document.getElementById("body").style.display = "block";
+    }
+    
+}
+    </script>
+    
+<script>
+    var scene;
+    var human;
+    var hairmesh;
+    var hairmesh1;
+
+//    var left = document.getElementById("left");
+//    left.selectedIndex = 0;
+
+    var right = document.getElementById("right");
+
+
+    //right.selectedIndex = 0;
+
+    if (BABYLON.Engine.isSupported()) {
+        var canvas = document.getElementById("renderCanvas");
+        var engine = new BABYLON.Engine(canvas, true);
+        
+        engine.setHardwareScalingLevel(0.8) //increase the rendering quality. default = 1 (0.5~4)
+        console.log(engine);
+        console.log(engine.getHardwareScalingLevel());
+
+        scene = new BABYLON.Scene(engine);
+
+        
+        
+        /*
+        var camera = scene.getCameraByID("Camera");
+        camera.wheelPrecision = 10;
+        var light = new BABYLON.PointLight("spot", BABYLON.Vector3.Zero(), scene);
+        light.intensity = 1.0;
+        */
+        
+        scene.autoClear = false; // keep bg white
+
+        // Creates, angles, distances and targets the camera
+	    var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0, 10, new BABYLON.Vector3(0 , 115, 0), scene);
+        
+        // This positions the camera
+        scene.activeCamera = camera;
+        camera.setPosition(new BABYLON.Vector3(0 , 130, -320.0));
+        // This attaches the camera to the canvas
+        camera.attachControl(canvas, true);
+        
+	   /**************************************************************/
+
+        // This creates a light, aiming 0,1,0 - to the sky (non-mesh)
+        //var light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(0, 1, 0), scene);
+	    //Create a light
+        var light1 = new BABYLON.HemisphericLight("Omni1", new BABYLON.Vector3(-1.8, 0, -2.0), scene);
+        var light2 = new BABYLON.HemisphericLight("Omni2", new BABYLON.Vector3( 1.8, -1.5, -2.0), scene);
+        var light3 = new BABYLON.HemisphericLight("Omni3", new BABYLON.Vector3(-1.8, -1.5, 2.0), scene);
+        var light4 = new BABYLON.HemisphericLight("Omni4", new BABYLON.Vector3( 1.8, -1.5, 2.0), scene);
+
+        scene.beforeCameraRender = function () {
+            light1.intensity = 0.6;
+            light2.intensity = 0.5;   
+            light3.intensity = 0.8;
+            light4.intensity = 0.5;    
+            
+            
+        };
+
+        /************************* Load Human *************************************/
+        var anim = new BABYLON.Animation("fade", "visibility", 60,  BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT);
+	    var keys = [];
+       
+         keys.push({
+	              frame: 0,
+	              value: 2.0
+            });
+	        keys.push({
+	              frame: 60,
+	              value: 0.0
+            });
+	        anim.setKeys(keys);
+        
+        
+        
+        var cloth = new md.MeshFactory(scene); // materialsRootDir optional
+        var mdbody = cloth.instance("bodyShape_skin_Shape"); // cloneSkeleton optional
+        //var floor = cloth.instance("Plane"); // cloneSkeleton optional
+        
+        
+        
+        
+        
+	    
+        mdbody.animations.push(anim);
+	    scene.beginAnimation(mdbody, 60, 0, true, 1);
+        /************************* Load Cloth *************************************/
+        
+        var record_last_mesh_num = scene.meshes.length;
+
+        
+        
+        var bumpMaterial = new BABYLON.PBRMaterial("blue silk.jpg", scene);
+        bumpMaterial.albedoTexture  = new BABYLON.Texture("blue silk.jpg", scene);
+        bumpMaterial.bumpTexture = new BABYLON.Texture("normalMap.jpg", scene);
+        //bumpMaterial.baseColor = new BABYLON.Color3(1.000, 0.766, 0.336);
+        bumpMaterial.metallic = 0.2;
+        bumpMaterial.roughness = 0.3;
+        //---------------------------------
+        // cloth animation initial setting
+        //---------------------------------
+        var cloth_ani_step = 0.025;
+        var cloth_shapekey_val = cloth_ani_step;
+        var direction = 1;
+        var delay_cnt = 0;
+        
+        
+        clothsizeupdate();
+        
+     
+        
+      
+   
+        //console.log(scene.meshes);
+
+        scene.executeWhenReady(function() {
+            engine.runRenderLoop(function () { 
+                scene.render();                 
+               
+                //////////////////////////
+                // animate cloth -- begin
+                //////////////////////////
+                var cloth_shapekey_quene;
+
+                var duration = 1 ;  //parseInt(document.getElementById("duration").value);
+                var delay_cnt_max = 2;
+                
+                var cloth_step_real=cloth_ani_step;
+                
+                
+                if ((cloth_shapekey_val>=1) || (cloth_shapekey_val<=0))
+                {
+                    //console.log( "DELAT_CNT = " + delay_cnt);
+                    
+                    if(delay_cnt==0){
+                        //console.log("delay cnt ==0");
+                        direction = direction *(-1);
+                        delay_cnt = delay_cnt_max;
+                        cloth_step_real = 0;
+                    }
+                    else if(delay_cnt==1){
+                            //console.log("delay cnt =1");
+                            cloth_step_real = cloth_ani_step;
+                            delay_cnt -=1 ; // timer counting to 0
+                        }
+                    else {                // delaying 
+                            //console.log("delay cnt =1~19");
+                            delay_cnt -=1 ; // timer counting
+                    }
+                    
+                }
+                               
+                cloth_shapekey_val = cloth_shapekey_val + (cloth_step_real * direction);
+                
+                //clamp funciton
+                if(cloth_shapekey_val >1)       cloth_shapekey_val=1.0;
+                else if(cloth_shapekey_val <0)  cloth_shapekey_val=0.0;
+                
+                cloth_shapekey_quene = new QI.Deformation("ENTIRE_MESH"  ,"Cloth", cloth_shapekey_val, duration); 
+ 
+                //console.log( "cloth_step_real = "+ cloth_step_real);
+                
+                //console.log("cloth_shapekey_val = "+cloth_shapekey_val);
+                
+                
+               // mesh2.queueSingleEvent(cloth_shapekey_quene);
+                //////////////////////////
+                // animate cloth -- end
+                //////////////////////////
+                
+                
+            });
+        });
+
+        //Resize
+        window.addEventListener("resize", function () {
+            engine.resize();
+        });
+
+
+    }else{
+        alert("WebGL not supported in this browser.");
+    }
+
+    function updateslidervertexdeformation(slideamount,slideamount2,slideamount3,slideamount4,slideamount5,slideamount6,slideamount7){
+
+        var shapekeyslide = new QI.VertexDeformation("ENTIRE_MESH","BASIS",["bodyShape_skin_Shape.Height","bodyShape_skin_Shape.Weight","bodyShape_skin_Shape.Waist","bodyShape_skin_Shape.Upperchest","bodyShape_skin_Shape.Shoulder","bodyShape_skin_Shape.Hip","bodyShape_skin_Shape.Breast"],[slideamount,slideamount2,slideamount3,slideamount4,slideamount5,slideamount6,slideamount7],1);
+        mdbody.queueSingleEvent(shapekeyslide);
+        
+       
+        }
+    function updatesliderhair(slideamount){
+       
+        if (scene.getMeshByName("hair_Shape1")){
+            var hair1shapekeyslide = new QI.VertexDeformation("ENTIRE_MESH","BASIS",["hair1height"],[slideamount],1);
+            hairmesh.queueSingleEvent(hair1shapekeyslide);
+        }
+        if (scene.getMeshByName("hair_Shape2")){
+            var hair2shapekeyslide = new QI.VertexDeformation("ENTIRE_MESH","BASIS",["hair2height"],[slideamount],1);
+            hairmesh1.queueSingleEvent(hair2shapekeyslide);
+        
+        }
+       
+        
+        
+        }
+        
+    
+    function clothsizeupdate() {
+            
+             for (i = 0; i<=100; i=i+25){
+                 for (j = 0; j<=100; j=j+25){
+                     if (scene.getMeshByName("height" + i + "weight" + j )){
+                         
+                 scene.getMeshByName("height" + i + "weight" + j).dispose();
+                 console.log("dispose : height" + i + "weight" + j);
+                     }
+              
+                 }
+             }
+            
+                       
+            var cloth_mesh = new TOB_mdcloth.MeshFactory(scene); 
+            var weightsilder = document.getElementById("slide2").value;
+            var heightsilder = (document.getElementById("slide1").value*-1+100);
+            
+            var mesh1 = cloth_mesh.instance("height" + heightsilder + "weight" + weightsilder ); // cloneSkeleton optional
+            mesh1.material= bumpMaterial;     
+        
+            
+	       
+	    
+            mesh1.animations.push(anim);
+	        scene.beginAnimation(mesh1, 60, 0, true, 1);
+            
+            
+            
+    }
+      function clothsizeupdate1() {
+            
+             for (i = 0; i<=100; i=i+25){
+                 for (j = 0; j<=100; j=j+25){
+                     if (scene.getMeshByName("height" + i + "weight" + j )){
+                         
+                 scene.getMeshByName("height" + i + "weight" + j).dispose();
+                 console.log("dispose : height" + i + "weight" + j);
+                     }
+              
+                 }
+             }
+            
+            
+            var cloth_mesh = new TOB_mdcloth1.MeshFactory(scene); 
+            var weightsilder = document.getElementById("slide2").value;
+            var heightsilder = (document.getElementById("slide1").value*-1+100);
+            
+            var mesh1 = cloth_mesh.instance("height" + heightsilder + "weight" + weightsilder ); // cloneSkeleton optional
+            mesh1.material= bumpMaterial;     
+        
+            
+	       
+	    
+            mesh1.animations.push(anim);
+	        scene.beginAnimation(mesh1, 60, 0, true, 1);
+            
+            
+            
+    }
+     function change(){
+      document.getElementById("slide1").onchange = function () { updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate(); }; 
+      document.getElementById("slide2").onchange = function () {
+      updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate(); };
+       clothsizeupdate();
+       
+   }
+ 
+    
+   function change1(){
+      document.getElementById("slide1").onchange = function () { updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate1(); }; 
+      document.getElementById("slide2").onchange = function () {
+      updateslidervertexdeformation(slide1.value/100,this.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100);clothsizeupdate1(); };
+       clothsizeupdate1();
+       
+   }
+   
+    function changehair1() {
+        if (scene.getMeshByName("hair_Shape2")){           
+            scene.getMeshByName("hair_Shape2").dispose();
+           
+        }
+        if (!scene.getMeshByName("hair_Shape1")){
+            var hair = new md_hair.MeshFactory(scene); // materialsRootDir optional
+            hairmesh = hair.instance("hair_Shape1");
+            updatesliderhair(document.getElementById("slide1").value/100);
+            
+            
+        }
+        
+   }
+    function changehair2() {
+        if (scene.getMeshByName("hair_Shape1")){
+            scene.getMeshByName("hair_Shape1").dispose();
+        }
+        if (!scene.getMeshByName("hair_Shape2")){
+            var hair = new md_hair.MeshFactory(scene); // materialsRootDir optional
+            hairmesh1 = hair.instance("hair_Shape2");
+            updatesliderhair(document.getElementById("slide1").value/100);
+        }
+        
+        
+   }
+ 
+ 
+
+</script>
+</body>
+</html>
+

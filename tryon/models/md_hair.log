@@ -1,0 +1,56 @@
+Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  D:\WIN7_USER\Desktop\TryOn\123\models\
+	Python World class constructor completed
+	processing begun of mesh:  hair_Shape1
+		processing begun of Standard material:  W_hair_bend.008
+		processing begun of Standard material:  W_hair.008
+			Diffuse texture found "woman_hair.png.008"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+				WARNING: Opacity non-std way to indicate opacity, use material alpha to also use Opacity texture
+		processing begun of Standard material:  W_hair_cap.008
+			Diffuse texture found "cap.jpg.008"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  W_face_hair.008
+			Diffuse texture found "W_face_west.jpg"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  md_hair.Multimaterial#0
+		num positions      :  5932
+		num normals        :  5932
+		num uvs            :  11864
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  28410
+		Shape Keys:
+			shape key "ENTIRE_MESH-HAIR1HEIGHT":  n verts different from basis: 5932
+		Shape-key group, ENTIRE_MESH, # of affected vertices: 5932, out of 5932
+	processing begun of mesh:  hair_Shape2
+		processing begun of Standard material:  middiecut_hair2
+			Diffuse texture found "StrandBrown_1.png"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  middiecut_hair3
+			Diffuse texture found "Mapgrid5_1.png"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  middiecut_hair4
+			Diffuse texture found "BaseBrown_1.png"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  md_hair.Multimaterial#1
+		num positions      :  28459
+		num normals        :  28459
+		num uvs            :  56918
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  51456
+		Shape Keys:
+			shape key "ENTIRE_MESH-HAIR2HEIGHT":  n verts different from basis: 28459
+		Shape-key group, ENTIRE_MESH, # of affected vertices: 28459, out of 28459
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of files started =========
+========= Writing of files completed =========
+========= end of processing =========
+elapsed time:  0 min, 5.437 secs

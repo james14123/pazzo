@@ -1,0 +1,864 @@
+Exporter version: 5.3-beta, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  D:\WIN7_USER\Desktop\TryOn\123\models\mdcloth\
+	Python World class constructor completed
+	processing begun of mesh:  height100weight100
+		processing begun of Standard material:  Material12243.024
+			Ambient texture found "Ka.120"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.120"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.024
+			Ambient texture found "Ka.124"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.124"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.024
+			Ambient texture found "Ka.121"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.121"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.024
+			Ambient texture found "Ka.123"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.123"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.024
+			Ambient texture found "Ka.122"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.122"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#0
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2120
+	processing begun of mesh:  height100weight75
+		processing begun of Standard material:  Material12243.023
+			Ambient texture found "Ka.115"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.115"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.023
+			Ambient texture found "Ka.119"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.119"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.023
+			Ambient texture found "Ka.116"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.116"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.023
+			Ambient texture found "Ka.118"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.118"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.023
+			Ambient texture found "Ka.117"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.117"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#1
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2092
+	processing begun of mesh:  height100weight50
+		processing begun of Standard material:  Material12243.022
+			Ambient texture found "Ka.110"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.110"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.022
+			Ambient texture found "Ka.114"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.114"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.022
+			Ambient texture found "Ka.111"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.111"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.022
+			Ambient texture found "Ka.113"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.113"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.022
+			Ambient texture found "Ka.112"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.112"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#2
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2082
+	processing begun of mesh:  height100weight25
+		processing begun of Standard material:  Material12243.021
+			Ambient texture found "Ka.105"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.105"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.021
+			Ambient texture found "Ka.109"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.109"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.021
+			Ambient texture found "Ka.106"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.106"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.021
+			Ambient texture found "Ka.108"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.108"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.021
+			Ambient texture found "Ka.107"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.107"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#3
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2086
+	processing begun of mesh:  height100weight0
+		processing begun of Standard material:  Material12243.020
+			Ambient texture found "Ka.100"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.100"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.020
+			Ambient texture found "Ka.104"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.104"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.020
+			Ambient texture found "Ka.101"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.101"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.020
+			Ambient texture found "Ka.103"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.103"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.020
+			Ambient texture found "Ka.102"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.102"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#4
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2120
+	processing begun of mesh:  height75weight100
+		processing begun of Standard material:  Material12243.019
+			Ambient texture found "Ka.095"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.095"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.019
+			Ambient texture found "Ka.099"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.099"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.019
+			Ambient texture found "Ka.096"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.096"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.019
+			Ambient texture found "Ka.098"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.098"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.019
+			Ambient texture found "Ka.097"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.097"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#5
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2076
+	processing begun of mesh:  height75weight75
+		processing begun of Standard material:  Material12243.018
+			Ambient texture found "Ka.090"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.090"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.018
+			Ambient texture found "Ka.094"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.094"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.018
+			Ambient texture found "Ka.091"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.091"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.018
+			Ambient texture found "Ka.093"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.093"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.018
+			Ambient texture found "Ka.092"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.092"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#6
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2112
+	processing begun of mesh:  height75weight50
+		processing begun of Standard material:  Material12243.017
+			Ambient texture found "Ka.085"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.085"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.017
+			Ambient texture found "Ka.089"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.089"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.017
+			Ambient texture found "Ka.086"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.086"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.017
+			Ambient texture found "Ka.088"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.088"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.017
+			Ambient texture found "Ka.087"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.087"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#7
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2096
+	processing begun of mesh:  height75weight25
+		processing begun of Standard material:  Material12243.016
+			Ambient texture found "Ka.080"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.080"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.016
+			Ambient texture found "Ka.084"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.084"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.016
+			Ambient texture found "Ka.081"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.081"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.016
+			Ambient texture found "Ka.083"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.083"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.016
+			Ambient texture found "Ka.082"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.082"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#8
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2120
+	processing begun of mesh:  height75weight0
+		processing begun of Standard material:  Material12243.015
+			Ambient texture found "Ka.075"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.075"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.015
+			Ambient texture found "Ka.079"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.079"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.015
+			Ambient texture found "Ka.076"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.076"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.015
+			Ambient texture found "Ka.078"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.078"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.015
+			Ambient texture found "Ka.077"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.077"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#9
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2078
+	processing begun of mesh:  height50weight100
+		processing begun of Standard material:  Material12243.014
+			Ambient texture found "Ka.070"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.070"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.014
+			Ambient texture found "Ka.074"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.074"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.014
+			Ambient texture found "Ka.071"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.071"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.014
+			Ambient texture found "Ka.073"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.073"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.014
+			Ambient texture found "Ka.072"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.072"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#10
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2070
+	processing begun of mesh:  height50weight75
+		processing begun of Standard material:  Material12243.013
+			Ambient texture found "Ka.065"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.065"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.013
+			Ambient texture found "Ka.069"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.069"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.013
+			Ambient texture found "Ka.066"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.066"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.013
+			Ambient texture found "Ka.068"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.068"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.013
+			Ambient texture found "Ka.067"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.067"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#11
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2080
+	processing begun of mesh:  height50weight50
+		processing begun of Standard material:  Material12243.012
+			Ambient texture found "Ka.060"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.060"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.012
+			Ambient texture found "Ka.064"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.064"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.012
+			Ambient texture found "Ka.061"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.061"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.012
+			Ambient texture found "Ka.063"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.063"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.012
+			Ambient texture found "Ka.062"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.062"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#12
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2110
+	processing begun of mesh:  height50weight25
+		processing begun of Standard material:  Material12243.011
+			Ambient texture found "Ka.055"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.055"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.011
+			Ambient texture found "Ka.059"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.059"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.011
+			Ambient texture found "Ka.056"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.056"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.011
+			Ambient texture found "Ka.058"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.058"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.011
+			Ambient texture found "Ka.057"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.057"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#13
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2086
+	processing begun of mesh:  height50weight0
+		processing begun of Standard material:  Material12243.010
+			Ambient texture found "Ka.050"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.050"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.010
+			Ambient texture found "Ka.054"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.054"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.010
+			Ambient texture found "Ka.051"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.051"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.010
+			Ambient texture found "Ka.053"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.053"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.010
+			Ambient texture found "Ka.052"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.052"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#14
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2090
+	processing begun of mesh:  height25weight100
+		processing begun of Standard material:  Material12243.009
+			Ambient texture found "Ka.045"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.045"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.009
+			Ambient texture found "Ka.049"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.049"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.009
+			Ambient texture found "Ka.046"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.046"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.009
+			Ambient texture found "Ka.048"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.048"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.009
+			Ambient texture found "Ka.047"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.047"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#15
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2092
+	processing begun of mesh:  height25weight75
+		processing begun of Standard material:  Material12243.008
+			Ambient texture found "Ka.040"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.040"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.008
+			Ambient texture found "Ka.044"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.044"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.008
+			Ambient texture found "Ka.041"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.041"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.008
+			Ambient texture found "Ka.043"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.043"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.008
+			Ambient texture found "Ka.042"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.042"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#16
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2078
+	processing begun of mesh:  height25weight50
+		processing begun of Standard material:  Material12243.007
+			Ambient texture found "Ka.035"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.035"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.007
+			Ambient texture found "Ka.039"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.039"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.007
+			Ambient texture found "Ka.036"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.036"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.007
+			Ambient texture found "Ka.038"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.038"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.007
+			Ambient texture found "Ka.037"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.037"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#17
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2094
+	processing begun of mesh:  height25weight25
+		processing begun of Standard material:  Material12243.006
+			Ambient texture found "Ka.030"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.030"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.006
+			Ambient texture found "Ka.034"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.034"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.006
+			Ambient texture found "Ka.031"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.031"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.006
+			Ambient texture found "Ka.033"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.033"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.006
+			Ambient texture found "Ka.032"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.032"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#18
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2094
+	processing begun of mesh:  height25weight0
+		processing begun of Standard material:  Material12243.005
+			Ambient texture found "Ka.025"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.025"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.005
+			Ambient texture found "Ka.029"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.029"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.005
+			Ambient texture found "Ka.026"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.026"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.005
+			Ambient texture found "Ka.028"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.028"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.005
+			Ambient texture found "Ka.027"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.027"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#19
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2102
+	processing begun of mesh:  height0weight100
+		processing begun of Standard material:  Material12243.004
+			Ambient texture found "Ka.020"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.020"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.004
+			Ambient texture found "Ka.024"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.024"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.004
+			Ambient texture found "Ka.021"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.021"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.004
+			Ambient texture found "Ka.023"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.023"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.004
+			Ambient texture found "Ka.022"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.022"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#20
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2082
+	processing begun of mesh:  height0weight75
+		processing begun of Standard material:  Material12243.003
+			Ambient texture found "Ka.015"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.015"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.003
+			Ambient texture found "Ka.019"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.019"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.003
+			Ambient texture found "Ka.016"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.016"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.003
+			Ambient texture found "Ka.018"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.018"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.003
+			Ambient texture found "Ka.017"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.017"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#21
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2072
+	processing begun of mesh:  height0weight50
+		processing begun of Standard material:  Material12243.002
+			Ambient texture found "Ka.010"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.010"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.002
+			Ambient texture found "Ka.014"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.014"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.002
+			Ambient texture found "Ka.011"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.011"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.002
+			Ambient texture found "Ka.013"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.013"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.002
+			Ambient texture found "Ka.012"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.012"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#22
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2094
+	processing begun of mesh:  height0weight25
+		processing begun of Standard material:  Material12243.001
+			Ambient texture found "Ka.005"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.005"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151.001
+			Ambient texture found "Ka.009"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.009"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647.001
+			Ambient texture found "Ka.006"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.006"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697.001
+			Ambient texture found "Ka.008"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.008"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146.001
+			Ambient texture found "Ka.007"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.007"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#23
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2082
+	processing begun of mesh:  height0weight0
+		processing begun of Standard material:  Material12243
+			Ambient texture found "Ka"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11151
+			Ambient texture found "Ka.004"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.004"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10647
+			Ambient texture found "Ka.001"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material11697
+			Ambient texture found "Ka.003"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.003"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  Material10146
+			Ambient texture found "Ka.002"
+				Image texture found, type:  ambientTexture, mapped using: "UVMap"
+			Diffuse texture found "Kd.002"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  TOB_mdcloth1.Multimaterial#24
+		num positions      :  25355
+		num normals        :  25355
+		num uvs            :  50710
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  133782
+		WARNING: # of 0 area faces found:  2076
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of files started =========
+========= Writing of files completed =========
+========= end of processing =========
+elapsed time:  2 min, 25.131 secs
