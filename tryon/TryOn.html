@@ -37,9 +37,12 @@
              border: 1px solid 	#DDDDDD;
              border-radius: 2px;"> 
     
-<button class="btn-hair" id="hair1" onclick="changehair1()">1</button>
+<button class="btn-hair" id="hair1" onclick="changehair1()"><img src="1.png" style="width:140%;height:100%; margin-left:-5.8px;"></button>
     
-<button class="btn-hair" id="hair2" onclick="changehair2()">2</button>
+<button class="btn-hair" id="hair2" onclick="changehair2()"><img src="2.png" style="width:140%;height:100%; margin-left:-5.8px;"></button>
+<button id="turnleft" onclick="left()">L</button>
+<button id="turnright" onclick="">R</button>    
+
 <div id="btn-bar">
 <button class="btn" onclick="bodyadjust()"><img src="body.png" style="width:150%;height:100%; margin-left:-5.52px;"></button>
 
@@ -54,7 +57,10 @@
     
     
 <div id="body" >
+    
 <font face="微軟正黑體">     
+    
+    <br /> 
    <label id="label1">Height</label><br/>
 <input id="slide1" type="range" min="0" max="100" step="25"  value="0"
        onchange="updateslidervertexdeformation(this.value/100,slide2.value/100,slide3.value/100,slide4.value/100,slide5.value/100,slide6.value/100,slide7.value/100),clothsizeupdate(),updatesliderhair(this.value/100)" ><br/>
@@ -413,6 +419,9 @@ function bodyadjust(){
         
         
    }
+    function left(){
+        console.log(scene.activeCamera.position);
+    }
  
  
 

@@ -49,11 +49,37 @@
 
 #hair1 {
     margin: 35px 0 0 5px;
+    border: 1px solid #DDDDDD; 
 }
 
 #hair2 {
     margin: 80px 0 0 5px;
+    border: 1px solid #DDDDDD; 
 }
+
+
+#turnleft {
+    -webkit-appearance: none;
+    background-color: lightgray;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+     margin: 430px 0 0 10px;
+    z-index: 9999;
+}
+
+#turnright {
+    -webkit-appearance: none;
+    background-color: lightgray;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+     margin: 430px 0 0 250px;
+    z-index: 9999;
+}
+
 
 .btn:hover {
     background-color: lightgray; /* Green */
@@ -88,7 +114,7 @@
      width: 300px;
      position: absolute;
      margin: 31px 0 0 0px;
-     background-color: rgba(0,0,0,0.2);
+     background-color: rgba(255,255,255,0.8);
      
      
      
@@ -108,18 +134,21 @@
 
 input[type="range"] {
 	-webkit-appearance: none;
-    width: 20em;
-	border-width: px;
+    width: 200px;
+    height: 30px;
+	border-width: 2px;
 	border-style: solid;
 	border-radius: 50rem;
 	border-color: rgba(0, 0, 0, 0.1);
-	padding: 2px 2px;
-    
+    background-color: rgba(255,255,255,0.8);
+	padding: 3px 5px;
 }
+
 input[type="range"]::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	background: #89B84C;
 	border-radius: 50rem;
-	height: 2em;
-	width: 2em;
+	height: 1em;
+	width: 1em;
+    
 }
