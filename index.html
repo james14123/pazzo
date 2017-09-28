@@ -391,19 +391,28 @@
     }
   
     </script>
-     <iframe src="login/login.html" id="login_window" style="  
-                                           border: 1px solid 	#DDDDDD;
-                                           border-radius: 2px;    
+     <iframe src="tryon/TryOn.html" id="login_window" style="  
+                                              
                                            display: none;
-                                           width: 317px; 
+                                           width: 397px; 
                                            height: 548px;  
                                            position: fixed;  
                                            overflow: hidden; 
                                            z-index: 999999; 
                                            right: 0px; 
                                            bottom: 0px;
-                                           background-color: rgba(255,255,255,0.6);"></iframe>
-
+                                           background-color: rgba(255,255,255,0);"></iframe>
+    <script>
+            function sidebarpop() {
+                document.getElementById("login_window").style.width = "398px";
+            }
+            function sidebarcancel() {
+                document.getElementById("login_window").style.width = "398px";
+            }
+            
+            </script>
+            
+            
     <script data-main="/Scripts/main.js?20170804182219" src="./index_files/require.js.下載"></script>
 
     <!-- Google ADWords 再行銷 -->
